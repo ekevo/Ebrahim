@@ -3,18 +3,18 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
- "https://drive.google.com/uc?export=download&id=1jRVHV7d3f4w7KGKj2ZhubcbmPR960QiA",
+ "https://i.imgur.com/bbigbCj.mp4",
 
 ];
 
 module.exports.config = {
- name: "Mysalf",
+ name: "🥺",
  version: "1.0.0",
  hasPermssion: 0,
  credits: "Islamick Chat",
  description: "auto reply to salam",
  commandCategory: "noprefix",
- usages: "Mysalf",
+ usages: "🥺",
  cooldowns: 5,
  dependencies: {
  "request":"",
@@ -26,10 +26,10 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
- if (body.startsWith("Mysalf")) {
+ if (body.startsWith("🥺")) {
  const rahad = [
- "╭•┄┅════❁🌺❁════┅┄•╮\n \n how an editor introducing himself-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
- "╭•┄┅════❁🌺❁════┅┄•╮\n\nhow an editor introducing himself-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
+ "╭•┄┅════❁🌺❁════┅┄•╮\n \n আমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
+ "╭•┄┅════❁🌺❁════┅┄•╮\n\nআমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
 
  ];
  const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
@@ -61,9 +61,9 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
  const { threadID, messageID } = event;
  let data = (await Threads.getData(threadID)).data;
- if (typeof data["Mysalf"] === "undefined" || data["Mysalf"]) data["Mysalf"] = false;
- else data["Mysalf"] = true;
+ if (typeof data["🥺"] === "undefined" || data["🥺"]) data["🥺"] = false;
+ else data["🥺"] = true;
  await Threads.setData(threadID, { data });
  global.data.threadData.set(threadID, data);
- api.sendMessage(`${(data["Mysalf"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
+ api.sendMessage(`${(data["🥺"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
 };
