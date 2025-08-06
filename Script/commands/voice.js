@@ -35,7 +35,7 @@ const emojiAudioMap = {
  url: "https://drive.google.com/uc?export=download&id=1Hvy_Xee8dAYp-Nul7iZtAq-xQt6-rNpU",
  caption: "হাসলে তোমাকে পাগল এর মতো লাগে... 🤣"
  },
- "My Self": {
+ "MySelf": {
  url: "https://drive.google.com/uc?export=download&id=1jRVHV7d3f4w7KGKj2ZhubcbmPR960QiA",
  caption: "যা ভাগ পাগল ছাগল ... my self"
  },
