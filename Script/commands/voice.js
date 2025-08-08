@@ -35,12 +35,12 @@ const emojiAudioMap = {
  url: "https://drive.google.com/uc?export=download&id=1Hvy_Xee8dAYp-Nul7iZtAq-xQt6-rNpU",
  caption: "হাসলে তোমাকে পাগল এর মতো লাগে... 🤣"
  },
- "ebrahim": {
- url: "https://drive.google.com/uc?export=download&id=1WuC0YUrWlE9XiVDSMZyt1ql5U20IcBoE",
- caption: "যা ভাগ পাগল ছাগল ... ebrahim"
+ "Sad song": {
+ url: "https://drive.google.com/uc?export=download&id=1UDxKlAsv2mHGlmMSwM2hBW70VTsEc0AV",
+ caption: "যা ভাগ পাগল ছাগল ... Sadsong"
  },
  "nasheed": {
- url: "https://drive.google.com/uc?export=download&id=1jRVHV7d3f4w7KGKj2ZhubcbmPR960QiA",
+ url: "https://drive.google.com/uc?export=download&id=1hHLY1Y5Cd_ZlSqvO2FQpOt0t8wbHamJi",
  caption: "লুঙ্গি খুলে খারাই মুতি ... nasheed"
  }
 };
