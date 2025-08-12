@@ -24,7 +24,7 @@ const emojiAudioMap = {
  caption: "এভাবে তাকিও না তুমি ভেবে লজ্জা লাগে ... 🙄"
  },
  "😑": {
- url: "https://drive.google.com/uc?export=download&id=1azElOD2QeaMbV2OdCY_W3tErD8JQ3T7P",
+ url: "https://drive.google.com/uc?export=download&id=17Wd2dPMZsl8_xzQ61Xji7JvLpG-JKfcf",
  caption: "লেবু খাও জান সব ঠিক হয়ে যাবে 😑"
  },
  "18+": {
