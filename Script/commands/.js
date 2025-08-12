@@ -14,7 +14,7 @@ module.exports.config = {
  credits: "Islamick Chat",
  description: "auto reply to salam",
  commandCategory: "noprefix",
- usages: "🙋‍♂️",
+ usages: "🙆‍♂️",
  cooldowns: 5,
  dependencies: {
  "request":"",
