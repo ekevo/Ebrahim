@@ -18,11 +18,11 @@ handleEvent: async function ({ api, event, args }) {
  const body = content.toLowerCase();
  const { alldown } = require("shaon-videos-downloader")
  if (body.startsWith("https://")) {
- api.setMessageReaction("⚠️", event.messageID, (err) => {}, true);
+ api.setMessageReaction("❎", event.messageID, (err) => {}, true);
 const data = await alldown(content);
  console.log(data)
  let Shaon = data.url;
- api.setMessageReaction("☢️", event.messageID, (err) => {}, true);
+ api.setMessageReaction("✅", event.messageID, (err) => {}, true);
  const video = (await axios.get(Shaon, {
  responseType: "arraybuffer",
  })).data;
